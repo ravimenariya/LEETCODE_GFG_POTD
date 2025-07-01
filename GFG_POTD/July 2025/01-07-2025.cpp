@@ -1,16 +1,27 @@
 class Solution {
-public:
-    int possibleStringCount(string word) {
-        int extra=0,i=0,n=word.size();
-        while(i<n)
+  public:
+    int substrCount(string &s, int k) {
+        // code here
+        int n=s.size(),l=0,r=0,unique=0,ans=0;
+        vector<int>freq(26,0);
+        while(r<(k-1))
         {
-            while((i+1)<n && word[i+1]==word[i])
-            {
-                extra++;
-                i++;
-            }
-            i++;
+            if(freq[s[r]-'a']==0)   unique++;
+            freq[s[r]-'a']++;
+            r++;
         }
-        return extra+1;
+        while(r<n)
+        {
+            if(freq[s[r]-'a']==0)   unique++;
+            freq[s[r]-'a']++;
+            r++;
+            
+            if(unique==(k-1))   ans++;
+            
+            freq[s[l]-'a']--;
+            if(freq[s[l]-'a']==0)   unique--;
+            l++;
+        }
+        return ans;
     }
 };
