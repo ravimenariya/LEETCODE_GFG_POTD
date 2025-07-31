@@ -12,9 +12,9 @@ class Solution {
         }
         for(auto i:freq)
         {
-            if(i.second<0 && curr>=k)  ans=max(ans,i.first-1);
+            if(i.second<0 && curr>=k)  ans=i.first-1;
             curr+=i.second;
-            if(curr>=k)     ans=max(ans,i.first);
+            if(curr>=k)     ans=i.first;
         }
         return ans;
     }
