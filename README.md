@@ -2,10 +2,13 @@
 
 Hey there! 👋 I solve **LeetCode** & **GeeksforGeeks POTD** problems daily and share my solutions here on GitHub. 💻✨
 
-## What’s Inside?  
-- 🧩 Daily problem solutions  
-- 💡 Clean, commented code  
-- 🔗 Links to original problems  
+## About
+
+I solve a new coding problem every day to sharpen my problem-solving skills and deepen my understanding of algorithms and data structures. If you’re stuck on a problem or want to see a clean, well-explained approach, you can check out my solutions here.
+
+- 💻 Problems from **LeetCode** and **GeeksforGeeks POTD**.
+- 📝 Solutions include clear code and comments for better understanding.
+- 🔄 Updated regularly with new daily solutions.
 
 ## Why Check This Out?  
 - Learn cool problem-solving tricks  
@@ -13,7 +16,7 @@ Hey there! 👋 I solve **LeetCode** & **GeeksforGeeks POTD** problems daily and
 - Level up your coding skills 🚀
 
 ## Tech Stack  
-- Mainly **[Your Language Here]**  
+- Mainly **C++**  
 
 Got feedback or want to collaborate? Drop an issue or PR! 🙌
 
