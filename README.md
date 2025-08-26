@@ -1,7 +1,7 @@
 # 🚀 Daily Coding Challenges
 
 Hey there! 👋 
-I solve **LeetCode** & **GeeksforGeeks POTD** problems daily and share my solutions here on GitHub. 💻✨
+- I solve **LeetCode** & **GeeksforGeeks POTD** problems daily and share my solutions here on GitHub. 💻✨
 
 ## About
 
